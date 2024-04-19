@@ -4,9 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Todo-List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Reminder</title>
 </head>
 <body>
-  <h1>Напоминания</h1>
+  <section class="section-main">
+    <h1 class="section-main_h1">Напоминания</h1>
+    <form action="" class="tasks-form">
+      <div class="tasks-form_task"><label><input type="checkbox" class="checkbox"><span></span></label>
+        <div class="tasks-form-task_block">
+          <span class="tasks-form_text">Text</span>
+          <span class="tasks-form_text-border"></span>
+        </div>
+      </div>
+      <div class="tasks-form_task"><label><input type="checkbox" class="checkbox"><span></span></label>
+        <div class="tasks-form-task_block">
+          <span class="tasks-form_text">Example</span>
+          <span class="tasks-form_text-border"></span>
+        </div>
+      </div>
+      <div class="tasks-form_task"><label><input type="checkbox" class="checkbox"><span></span></label>
+        <div class="tasks-form-task_block">
+          <span class="tasks-form_text">Washing car</span>
+          <span class="tasks-form_text-border"></span>
+        </div>
+      </div>
+      <div class="section-main_add-remind">
+        <div>
+          <span></span>
+          <span>+</span>
+        </div>
+        <span>Напоминание</span> <!-- TODO: button or div?-->
+      </div>
+    </form>
+  </section>
+  
 </body>
 </html>
